@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00619A281C788D870803D2E7 /* libPods-AlertManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA15E55DAB1F200B58E8E57 /* libPods-AlertManager.a */; };
+		3436777A456C2685578BB8F6 /* libPods-AlertManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF27BF19CB8A300BC998FFB3 /* libPods-AlertManagerUITests.a */; };
 		42EEC1D91D8174E300CF3684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC1D81D8174E300CF3684 /* main.m */; };
 		42EEC1DC1D8174E300CF3684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC1DB1D8174E300CF3684 /* AppDelegate.m */; };
 		42EEC1DF1D8174E300CF3684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC1DE1D8174E300CF3684 /* ViewController.m */; };
@@ -15,6 +17,16 @@
 		42EEC1E71D8174E300CF3684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EEC1E51D8174E300CF3684 /* LaunchScreen.storyboard */; };
 		42EEC1F21D8174E300CF3684 /* AlertManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC1F11D8174E300CF3684 /* AlertManagerTests.m */; };
 		42EEC1FD1D8174E400CF3684 /* AlertManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC1FC1D8174E400CF3684 /* AlertManagerUITests.m */; };
+		42EEC2121D8174F700CF3684 /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC20C1D8174F700CF3684 /* AlertManager.m */; };
+		42EEC2131D8174F700CF3684 /* DKAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC20E1D8174F700CF3684 /* DKAlert.m */; };
+		42EEC2141D8174F700CF3684 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC2111D8174F700CF3684 /* UIView+Extension.m */; };
+		42EEC2181D81750700CF3684 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC2171D81750700CF3684 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		42EEC21B1D81751800CF3684 /* CommonNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC21A1D81751800CF3684 /* CommonNoDataView.m */; };
+		42EEC21D1D81777200CF3684 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EEC21C1D81777200CF3684 /* circle.png */; };
+		42EEC21F1D81778200CF3684 /* requestlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EEC21E1D81778200CF3684 /* requestlogo.png */; };
+		42EEC2251D8251EC00CF3684 /* wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EEC2231D8251EC00CF3684 /* wifi@2x.png */; };
+		42EEC2261D8251EC00CF3684 /* wifi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EEC2241D8251EC00CF3684 /* wifi@3x.png */; };
+		7C34A68629F82FCAF62D89D8 /* libPods-AlertManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17E16162534D5B2739BD3E /* libPods-AlertManagerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FFA54FAE797F1742D959747 /* Pods-AlertManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManagerUITests/Pods-AlertManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		42EEC1D41D8174E300CF3684 /* AlertManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EEC1D81D8174E300CF3684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42EEC1DA1D8174E300CF3684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,29 @@
 		42EEC1F81D8174E400CF3684 /* AlertManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EEC1FC1D8174E400CF3684 /* AlertManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertManagerUITests.m; sourceTree = "<group>"; };
 		42EEC1FE1D8174E400CF3684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EEC20B1D8174F700CF3684 /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		42EEC20C1D8174F700CF3684 /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		42EEC20D1D8174F700CF3684 /* DKAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAlert.h; sourceTree = "<group>"; };
+		42EEC20E1D8174F700CF3684 /* DKAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAlert.m; sourceTree = "<group>"; };
+		42EEC20F1D8174F700CF3684 /* MACRO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACRO.h; sourceTree = "<group>"; };
+		42EEC2101D8174F700CF3684 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		42EEC2111D8174F700CF3684 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		42EEC2161D81750700CF3684 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		42EEC2171D81750700CF3684 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		42EEC2191D81751800CF3684 /* CommonNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNoDataView.h; sourceTree = "<group>"; };
+		42EEC21A1D81751800CF3684 /* CommonNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNoDataView.m; sourceTree = "<group>"; };
+		42EEC21C1D81777200CF3684 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		42EEC21E1D81778200CF3684 /* requestlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = requestlogo.png; sourceTree = "<group>"; };
+		42EEC2231D8251EC00CF3684 /* wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi@2x.png"; sourceTree = "<group>"; };
+		42EEC2241D8251EC00CF3684 /* wifi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi@3x.png"; sourceTree = "<group>"; };
+		56725AEA48D03FD238C36F83 /* Pods-AlertManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManagerUITests/Pods-AlertManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D93F7056B8136F55DC2D2C5 /* Pods-AlertManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManager/Pods-AlertManager.debug.xcconfig"; sourceTree = "<group>"; };
+		89333A6759CC2BF306A5DF79 /* Pods-AlertManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManagerTests/Pods-AlertManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BA15E55DAB1F200B58E8E57 /* libPods-AlertManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE87ABAA8AA0B3A6148F2525 /* Pods-AlertManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManager/Pods-AlertManager.release.xcconfig"; sourceTree = "<group>"; };
+		AF27BF19CB8A300BC998FFB3 /* libPods-AlertManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA17E16162534D5B2739BD3E /* libPods-AlertManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7AC6C4711E406B6787F6F5 /* Pods-AlertManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlertManagerTests/Pods-AlertManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00619A281C788D870803D2E7 /* libPods-AlertManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C34A68629F82FCAF62D89D8 /* libPods-AlertManagerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3436777A456C2685578BB8F6 /* libPods-AlertManagerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,8 @@
 				42EEC1F01D8174E300CF3684 /* AlertManagerTests */,
 				42EEC1FB1D8174E400CF3684 /* AlertManagerUITests */,
 				42EEC1D51D8174E300CF3684 /* Products */,
+				FC21688A7BF9EF4005C2EFDD /* Pods */,
+				FE2CF92B1061A938DD79DF66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +142,8 @@
 		42EEC1D61D8174E300CF3684 /* AlertManager */ = {
 			isa = PBXGroup;
 			children = (
+				42EEC2151D81750700CF3684 /* Reachability */,
+				42EEC20A1D8174F700CF3684 /* AlertManager */,
 				42EEC1DA1D8174E300CF3684 /* AppDelegate.h */,
 				42EEC1DB1D8174E300CF3684 /* AppDelegate.m */,
 				42EEC1DD1D8174E300CF3684 /* ViewController.h */,
@@ -140,6 +183,58 @@
 			path = AlertManagerUITests;
 			sourceTree = "<group>";
 		};
+		42EEC20A1D8174F700CF3684 /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				42EEC2231D8251EC00CF3684 /* wifi@2x.png */,
+				42EEC2241D8251EC00CF3684 /* wifi@3x.png */,
+				42EEC21C1D81777200CF3684 /* circle.png */,
+				42EEC21E1D81778200CF3684 /* requestlogo.png */,
+				42EEC2191D81751800CF3684 /* CommonNoDataView.h */,
+				42EEC21A1D81751800CF3684 /* CommonNoDataView.m */,
+				42EEC20B1D8174F700CF3684 /* AlertManager.h */,
+				42EEC20C1D8174F700CF3684 /* AlertManager.m */,
+				42EEC20D1D8174F700CF3684 /* DKAlert.h */,
+				42EEC20E1D8174F700CF3684 /* DKAlert.m */,
+				42EEC20F1D8174F700CF3684 /* MACRO.h */,
+				42EEC2101D8174F700CF3684 /* UIView+Extension.h */,
+				42EEC2111D8174F700CF3684 /* UIView+Extension.m */,
+			);
+			path = AlertManager;
+			sourceTree = "<group>";
+		};
+		42EEC2151D81750700CF3684 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				42EEC2161D81750700CF3684 /* Reachability.h */,
+				42EEC2171D81750700CF3684 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FC21688A7BF9EF4005C2EFDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D93F7056B8136F55DC2D2C5 /* Pods-AlertManager.debug.xcconfig */,
+				AE87ABAA8AA0B3A6148F2525 /* Pods-AlertManager.release.xcconfig */,
+				BA7AC6C4711E406B6787F6F5 /* Pods-AlertManagerTests.debug.xcconfig */,
+				89333A6759CC2BF306A5DF79 /* Pods-AlertManagerTests.release.xcconfig */,
+				56725AEA48D03FD238C36F83 /* Pods-AlertManagerUITests.debug.xcconfig */,
+				1FFA54FAE797F1742D959747 /* Pods-AlertManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE2CF92B1061A938DD79DF66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BA15E55DAB1F200B58E8E57 /* libPods-AlertManager.a */,
+				BA17E16162534D5B2739BD3E /* libPods-AlertManagerTests.a */,
+				AF27BF19CB8A300BC998FFB3 /* libPods-AlertManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EEC2011D8174E400CF3684 /* Build configuration list for PBXNativeTarget "AlertManager" */;
 			buildPhases = (
+				0FB79428BDC128A00C9D040E /* [CP] Check Pods Manifest.lock */,
 				42EEC1D01D8174E300CF3684 /* Sources */,
 				42EEC1D11D8174E300CF3684 /* Frameworks */,
 				42EEC1D21D8174E300CF3684 /* Resources */,
+				36863A04698F21F73ADCD872 /* [CP] Embed Pods Frameworks */,
+				086CBD68BC944CB55B2233FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EEC2041D8174E400CF3684 /* Build configuration list for PBXNativeTarget "AlertManagerTests" */;
 			buildPhases = (
+				20949A6593EB53603910AB73 /* [CP] Check Pods Manifest.lock */,
 				42EEC1E91D8174E300CF3684 /* Sources */,
 				42EEC1EA1D8174E300CF3684 /* Frameworks */,
 				42EEC1EB1D8174E300CF3684 /* Resources */,
+				41CCE801E7FBC35484AC9CE4 /* [CP] Embed Pods Frameworks */,
+				916EF6CFE6AB5FC229D55A90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EEC2071D8174E400CF3684 /* Build configuration list for PBXNativeTarget "AlertManagerUITests" */;
 			buildPhases = (
+				AAD1D1227C5822744F7BF45F /* [CP] Check Pods Manifest.lock */,
 				42EEC1F41D8174E300CF3684 /* Sources */,
 				42EEC1F51D8174E300CF3684 /* Frameworks */,
 				42EEC1F61D8174E300CF3684 /* Resources */,
+				014C1678B99353CC1F1ED224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EEC1E71D8174E300CF3684 /* LaunchScreen.storyboard in Resources */,
+				42EEC2261D8251EC00CF3684 /* wifi@3x.png in Resources */,
+				42EEC2251D8251EC00CF3684 /* wifi@2x.png in Resources */,
 				42EEC1E41D8174E300CF3684 /* Assets.xcassets in Resources */,
 				42EEC1E21D8174E300CF3684 /* Main.storyboard in Resources */,
+				42EEC21F1D81778200CF3684 /* requestlogo.png in Resources */,
+				42EEC21D1D81777200CF3684 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +372,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014C1678B99353CC1F1ED224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertManagerUITests/Pods-AlertManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		086CBD68BC944CB55B2233FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertManager/Pods-AlertManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FB79428BDC128A00C9D040E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20949A6593EB53603910AB73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36863A04698F21F73ADCD872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertManager/Pods-AlertManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CCE801E7FBC35484AC9CE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertManagerTests/Pods-AlertManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916EF6CFE6AB5FC229D55A90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlertManagerTests/Pods-AlertManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD1D1227C5822744F7BF45F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42EEC1D01D8174E300CF3684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EEC21B1D81751800CF3684 /* CommonNoDataView.m in Sources */,
+				42EEC2141D8174F700CF3684 /* UIView+Extension.m in Sources */,
+				42EEC2121D8174F700CF3684 /* AlertManager.m in Sources */,
 				42EEC1DF1D8174E300CF3684 /* ViewController.m in Sources */,
+				42EEC2181D81750700CF3684 /* Reachability.m in Sources */,
+				42EEC2131D8174F700CF3684 /* DKAlert.m in Sources */,
 				42EEC1DC1D8174E300CF3684 /* AppDelegate.m in Sources */,
 				42EEC1D91D8174E300CF3684 /* main.m in Sources */,
 			);
@@ -411,6 +646,7 @@
 		};
 		42EEC2021D8174E400CF3684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D93F7056B8136F55DC2D2C5 /* Pods-AlertManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlertManager/Info.plist;
@@ -422,6 +658,7 @@
 		};
 		42EEC2031D8174E400CF3684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE87ABAA8AA0B3A6148F2525 /* Pods-AlertManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlertManager/Info.plist;
@@ -433,6 +670,7 @@
 		};
 		42EEC2051D8174E400CF3684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7AC6C4711E406B6787F6F5 /* Pods-AlertManagerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlertManagerTests/Info.plist;
@@ -445,6 +683,7 @@
 		};
 		42EEC2061D8174E400CF3684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89333A6759CC2BF306A5DF79 /* Pods-AlertManagerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlertManagerTests/Info.plist;
@@ -457,6 +696,7 @@
 		};
 		42EEC2081D8174E400CF3684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56725AEA48D03FD238C36F83 /* Pods-AlertManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlertManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +709,7 @@
 		};
 		42EEC2091D8174E400CF3684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFA54FAE797F1742D959747 /* Pods-AlertManagerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AlertManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +739,7 @@
 				42EEC2031D8174E400CF3684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42EEC2041D8174E400CF3684 /* Build configuration list for PBXNativeTarget "AlertManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +748,7 @@
 				42EEC2061D8174E400CF3684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42EEC2071D8174E400CF3684 /* Build configuration list for PBXNativeTarget "AlertManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +757,7 @@
 				42EEC2091D8174E400CF3684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
